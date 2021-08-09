@@ -22,3 +22,11 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about',array('page_title'=>'About Developers'));
 });
+
+// admin route
+Route::group(['namespace'=>'admin','prefix'=>'admin'], function (){
+    Route::resource('/', "LoginController");
+    Route::get('/dashboard', "AdminController@dashboard")->name('dashboard');
+    // logout
+    Route::get('/logout', "AdminController@logout")->name('logout');
+});
