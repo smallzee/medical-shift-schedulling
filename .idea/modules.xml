@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/medical-schedulling.iml" filepath="$PROJECT_DIR$/.idea/medical-schedulling.iml" />
       <module fileurl="file://$PROJECT_DIR$/../medical-shift-schedulling/.idea/medical-shift-schedulling.iml" filepath="$PROJECT_DIR$/../medical-shift-schedulling/.idea/medical-shift-schedulling.iml" />
     </modules>
   </component>

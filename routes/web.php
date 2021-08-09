@@ -27,6 +27,7 @@ Route::get('/about', function () {
 Route::group(['namespace'=>'admin','prefix'=>'admin'], function (){
     Route::resource('/', "LoginController");
     Route::get('/dashboard', "AdminController@dashboard")->name('dashboard');
+    Route::get('/shifting-category', "ShiftingController@shifting_category")->name('shifting_category');
     // logout
     Route::get('/logout', "AdminController@logout")->name('logout');
 });
