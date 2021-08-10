@@ -87,4 +87,9 @@ class ShiftingController extends Controller
             return back()->with('flash_info','Shifting category has been update successfully');
         }
     }
+
+    public function shifting(){
+        $data['page_title'] = "All Staffs Shifting Scheduling";
+        return view('admin.shitfing',$data);
+    }
 }

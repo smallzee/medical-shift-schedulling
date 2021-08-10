@@ -43,9 +43,9 @@
                                 <td>{{$value->email_address}}</td>
                                 <td>{{$value->phone_number}}</td>
                                 <td>{{$value->gender}}</td>
-                                <td>{{$value->role_id}}</td>
+                                <td>{{ \App\Role::where('id',$value->role_id)->first()->name  }}</td>
                                 <td>{{$value->created_at}}</td>
-                                <td><a href="{{url('admin/edit-staff/'.$value->id)}}" class="btn btn-primary btn-sm">Edit</a></td>
+                                <td><a href="{{url('admin/view-staff/'.$value->id)}}" class="btn btn-primary btn-sm">View</a></td>
                             </tr>
                         @endforeach
                         </tbody>

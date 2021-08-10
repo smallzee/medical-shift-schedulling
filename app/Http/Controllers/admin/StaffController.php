@@ -63,4 +63,10 @@ class StaffController extends Controller
         }
 
     }
+
+    public function view_staff(User $user){
+        $data['page_title'] = "Staff Profile";
+        $data['user'] = $user;
+        return view('admin.view-staff',$data);
+    }
 }

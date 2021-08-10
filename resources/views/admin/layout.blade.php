@@ -130,10 +130,17 @@
                     </a>
                 </li>
 
+
                 <li>
                     <a href="{{url('admin/add-shifting-category')}}"><i class="fa fa-plus"></i><span>Add Shifting Category</span>
                     </a>
                 </li>
+
+                <li>
+                    <a href="{{url('admin/shifting')}}"><i class="fa fa-hospital-o"></i><span>Staff Shifting Scheduling </span>
+                    </a>
+                </li>
+
 
                 <li>
                     <a href="{{url('admin/logout')}}">

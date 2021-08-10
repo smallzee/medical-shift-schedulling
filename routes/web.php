@@ -42,7 +42,10 @@ Route::group(['namespace'=>'admin','prefix'=>'admin'], function (){
 
     Route::get('/add-staff', "StaffController@add_staff")->name('add_staff');
     Route::get('/staff', "StaffController@staff")->name('staff');
+    Route::get('/view-staff/{user}', "StaffController@view_staff")->name('view_staff');
     Route::post('/create_new_staff', "StaffController@create_new_staff")->name('create_new_staff');
+
+    Route::get('/shifting', "ShiftingController@shifting")->name('shifting');
 
     // logout
     Route::get('/logout', "AdminController@logout")->name('logout');
