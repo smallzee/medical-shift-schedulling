@@ -2,271 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7b066fe-3ded-4fa4-a657-02348267ffb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/fonts/glyphicons-halflings-regular-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/css/stylehealth.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/The-Lion-King-Desktop-1024x640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/Zipper-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/credit/AM_mc_vs_ms_ae_UK.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/d1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/d2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/d3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/d4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/ico/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/lab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/m1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/m3.png.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/m4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/mini-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/nocontrol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/profile-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/stethescope.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/therm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/twitter_corner_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/user2-160x160.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/w1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/w3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/w4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/w5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/w6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/w7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/w9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/img/weather_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/dist/js/custom1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/font-awesome/fonts/fontawesome-webfont-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/font-awesome/fonts/fontawesome-webfont-v=4.7.0.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/font-awesome/fonts/fontawesome-webfont-v=4.7.0.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/font-awesome/fonts/fontawesome-webfont-v=4.7.0.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/font-awesome/fonts/fontawesome-webfont-v=4.7.0.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/font-awesome/fonts/fontawesome-webfont-v=4.7.0.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/pe-icon-7-stroke/fonts/Pe-icon-7-stroke-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/pe-icon-7-stroke/fonts/Pe-icon-7-stroke-d7yf1v.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/pe-icon-7-stroke/fonts/Pe-icon-7-stroke-d7yf1v.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/pe-icon-7-stroke/fonts/Pe-icon-7-stroke-d7yf1v.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/pe-icon-7-stroke/fonts/Pe-icon-7-stroke-d7yf1v.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/css/ns-default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/css/ns-style-attached.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/css/ns-style-bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/css/ns-style-growl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/css/ns-style-other.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/fonts/linecons/linecons--kux0c3.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/fonts/linecons/linecons--kux0c3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/fonts/linecons/linecons--kux0c3.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/fonts/linecons/linecons--kux0c3.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/fonts/linecons/linecons-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/js/classie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/js/modernizr.custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/js/notificationFx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/NotificationStyles/js/snap.svg-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/bootstrap-social/bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/bootstrap-toggle/bootstrap-toggle.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/bootstrap-toggle/bootstrap-toggle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/chartJs/Chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/counterup/jquery.counterup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/counterup/waypoints.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/datamaps/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/datamaps/datamaps.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/datamaps/topojson.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/emojionearea/emojionearea.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/emojionearea/emojionearea.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/fastclick/fastclick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/fullcalendar/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/fullcalendar/fullcalendar.print.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/fullcalendar/lib/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/icheck/skins/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/ion/css/ion.rangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/ion/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/ion/img/sprite-skin-flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/ion/js/ion.rangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/jQuery/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/jquery-ui-1.12.1/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/jquery-ui-1.12.1/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/lobipanel/lobipanel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/lobipanel/lobipanel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/modals/classie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/modals/component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/modals/modalEffects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/moment/moment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/monthly/monthly.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/monthly/monthly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/pace/flash.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/pace/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/slimScroll/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/sparkline/sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/summernote/font/summernote-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/summernote/font/summernote-dc97c88102d55aed645e5f227c58ba5b.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/summernote/font/summernote-dc97c88102d55aed645e5f227c58ba5b.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/summernote/font/summernote-dc97c88102d55aed645e5f227c58ba5b.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/summernote/summernote.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/summernote/summernote.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/sweetalert/sweetalert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/sweetalert/sweetalert.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/toastr/toastr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/plugins/toastr/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/socicon/fonts/socicon-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/socicon/fonts/socicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/socicon/fonts/socicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/socicon/fonts/socicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/socicon/fonts/socicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/socicon/social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/themify-icons/fonts/themify--fvbane.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/themify-icons/fonts/themify--fvbane.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/themify-icons/fonts/themify--fvbane.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/themify-icons/fonts/themify--fvbane.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/themify-icons/fonts/themify-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/themify-icons/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/weather-icons/css/weather-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/weather-icons/font/weathericons-regular-webfont-.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/weather-icons/font/weathericons-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/weather-icons/font/weathericons-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/weather-icons/font/weathericons-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/weather-icons/font/weathericons-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/weather-icons/font/weathericons-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/shifting-category.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/flash.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/medical-shift-schedulling.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/add-role.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/add-shifting-category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/add-staff.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/edit-role.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/edit-shifting-category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/role.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/staff.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/LoginController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/ShiftingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/ShiftingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/shifting-category.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/shifting-category.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -282,33 +29,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -317,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="141" column="52" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
+            <state relative-caret-position="187">
+              <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
               <folding>
                 <element signature="e#44473#44479#0#HTML" expanded="true" />
               </folding>
@@ -329,47 +49,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/shifting-category.blade.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/staff.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="426">
+              <caret line="45" column="59" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ShiftingController.php">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/edit-role.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="101" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -406,11 +108,23 @@
         <option value="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ShiftingController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/add-shifting-category.blade.php" />
+        <option value="$PROJECT_DIR$/app/ShiftingCategory.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/shifting-category.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/edit-shifting-category.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ShiftingController.php" />
+        <option value="$PROJECT_DIR$/app/Role.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/role.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/add-role.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/edit-role.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/RoleController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/layout.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/add-staff.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/StaffController.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/staff.blade.php" />
       </list>
     </option>
   </component>
@@ -515,9 +229,11 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="height" value="777" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -610,6 +326,7 @@
       <recent name="$PROJECT_DIR$/public/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/admin" />
       <recent name="$PROJECT_DIR$/database" />
       <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/public/assets/libs" />
@@ -646,12 +363,12 @@
       <workItem from="1628511174388" duration="4350000" />
       <workItem from="1628516829045" duration="503000" />
       <workItem from="1628517339584" duration="400000" />
-      <workItem from="1628517857358" duration="3225000" />
+      <workItem from="1628517857358" duration="11574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8478000" />
+    <option name="totallyTimeSpent" value="16827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -755,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/flash.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -780,13 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -825,34 +528,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/ShiftingCategory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="101" selection-start-line="29" selection-start-column="101" selection-end-line="29" selection-end-column="101" />
+        <state relative-caret-position="150">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ShiftingController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/add-shifting-category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="3" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/role.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Role.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/add-role.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/shifting-category.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/RoleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="420">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="141" column="52" selection-start-line="141" selection-start-column="52" selection-end-line="141" selection-end-column="52" />
+        <state relative-caret-position="187">
+          <caret line="108" column="47" selection-start-line="108" selection-start-column="47" selection-end-line="108" selection-end-column="47" />
           <folding>
             <element signature="e#44473#44479#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="43" column="62" selection-start-line="43" selection-start-column="62" selection-end-line="43" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/add-staff.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/ShiftingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="80" lean-forward="true" selection-start-line="68" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/edit-shifting-category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/StaffController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/flash.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/edit-role.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/shifting-category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/staff.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="45" column="59" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="59" />
         </state>
       </provider>
     </entry>

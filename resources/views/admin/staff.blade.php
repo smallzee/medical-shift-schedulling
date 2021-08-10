@@ -16,27 +16,36 @@
                         <thead>
                         <tr>
                             <th>SN</th>
-                            <th>Name</th>
-                            <th>Schedule Time</th>
+                            <th>Email Address</th>
+                            <th>Phone Number</th>
+                            <th>Gender</th>
+                            <th>Staff Role</th>
+                            <th>Created At</th>
                             <th>Action</th>
                         </tr>
                         </thead>
                         <tfoot>
                         <tr>
                             <th>SN</th>
-                            <th>Name</th>
-                            <th>Schedule Time</th>
+                            <th>Email Address</th>
+                            <th>Phone Number</th>
+                            <th>Gender</th>
+                            <th>Staff Role</th>
+                            <th>Created At</th>
                             <th>Action</th>
                         </tr>
                         </tfoot>
                         <tbody>
                         @php($sn =1)
-                        @foreach(\App\ShiftingCategory::get() as $value)
+                        @foreach(\App\User::where('role_id','>',1)->get() as $value)
                             <tr>
                                 <td>{{$sn++}}</td>
-                                <td>{{ ucwords($value->name) }}</td>
-                                <td>{{$value->schedule}}</td>
-                                <td><a href="{{url('admin/edit-shifting-category/'.$value->id)}}" class="btn btn-primary btn-sm">Edit</a></td>
+                                <td>{{$value->email_address}}</td>
+                                <td>{{$value->phone_number}}</td>
+                                <td>{{$value->gender}}</td>
+                                <td>{{$value->role_id}}</td>
+                                <td>{{$value->created_at}}</td>
+                                <td><a href="{{url('admin/edit-staff/'.$value->id)}}" class="btn btn-primary btn-sm">Edit</a></td>
                             </tr>
                         @endforeach
                         </tbody>
@@ -44,8 +53,8 @@
                 </div>
 
             </div>
-
         </div>
     </div>
+
 
 @endpush

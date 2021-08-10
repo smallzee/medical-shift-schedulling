@@ -42,6 +42,7 @@
     <!--<link href="assets/dist/css/stylehealth-rtl.css" rel="stylesheet" type="text/css"/>-->
     <!-- End Theme Layout Style
     =====================================================================-->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
 
@@ -105,7 +106,32 @@
                 </li>
 
                 <li>
+                    <a href="{{url('admin/staff')}}"><i class="fa fa-hospital-o"></i><span>All Staff</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{url('admin/add-role')}}"><i class="fa fa-plus"></i><span>Add New Role</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{url('admin/role')}}"><i class="fa fa-hospital-o"></i><span>All Staff Role</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{url('admin/add-staff')}}"><i class="fa fa-plus"></i><span>Add New Staff</span>
+                    </a>
+                </li>
+
+                <li>
                     <a href="{{url('admin/shifting-category')}}"><i class="fa fa-hospital-o"></i><span>Shifting Category</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{url('admin/add-shifting-category')}}"><i class="fa fa-plus"></i><span>Add Shifting Category</span>
                     </a>
                 </li>
 
@@ -124,11 +150,12 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <div class="header-title">
-                <h1> {{$page_title}}</h1>
+                <h1>{{$page_title}}</h1>
             </div>
         </section>
         <!-- Main content -->
         <section class="content">
+            @include('flash')
             <div class="row">
                 @stack('content')
             </div>
@@ -185,12 +212,15 @@
 <script src="{{url('assets/admin/plugins/datamaps/d3.min.js')}}" type="text/javascript"></script>
 <script src="{{url('assets/admin/plugins/datamaps/topojson.min.js')}}" type="text/javascript"></script>
 <script src="{{url('assets/admin/plugins/datamaps/datamaps.all.min.js')}}" type="text/javascript"></script>
-
+<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 <!-- End Page Lavel Plugins
 =====================================================================-->
 <!-- Start Theme label Script
 =====================================================================-->
 <!-- Dashboard js -->
 <script src="{{url('assets/admin/dist/js/custom.js')}}" type="text/javascript"></script>
+<script>
+    $('#example1').DataTable();
+</script>
 </body>
 </html>
