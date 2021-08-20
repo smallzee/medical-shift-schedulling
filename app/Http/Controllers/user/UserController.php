@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\user;
 
+use App\Duty_shifting;
 use App\Http\Controllers\Controller;
+use App\ShiftingCategory;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -20,6 +22,17 @@ class UserController extends Controller
 
     public function dashboard(){
         $data['page_title'] = "Dashboard";
+
+        $shifing_category = ShiftingCategory::get();
+
+        $duty_shifting = Duty_shifting::where('user_id',\auth()->user()->id)->orderBy('id','desc')->first();
+
+        for ($i =0; $i < count($shifing_category); $i++){
+            $shifing_category_id[] =$shifing_category[$i]->id;
+        }
+
+
+
         return view('users.dashboard',$data);
     }
 
