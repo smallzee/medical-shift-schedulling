@@ -17,6 +17,7 @@
                         <tr>
                             <th>SN</th>
                             <th>Email Address</th>
+                            <th>Full Name</th>
                             <th>Phone Number</th>
                             <th>Gender</th>
                             <th>Staff Role</th>
@@ -28,6 +29,7 @@
                         <tr>
                             <th>SN</th>
                             <th>Email Address</th>
+                            <th>Full Name</th>
                             <th>Phone Number</th>
                             <th>Gender</th>
                             <th>Staff Role</th>
@@ -41,6 +43,7 @@
                             <tr>
                                 <td>{{$sn++}}</td>
                                 <td>{{$value->email_address}}</td>
+                                <td>{{$value->full_name}}</td>
                                 <td>{{$value->phone_number}}</td>
                                 <td>{{$value->gender}}</td>
                                 <td>{{ \App\Role::where('id',$value->role_id)->first()->name  }}</td>

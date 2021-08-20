@@ -12,7 +12,7 @@
                         <div class="content-box">
                             <span class="title">Welcome to our Medical Care Center</span>
                             <h2>We take care our <br>patients health</h2>
-                            <div class="text">I realized that becoming a doctor, I can only help a small community. <br>But by becoming a doctor, I can help my whole country. </div>
+
                             <div class="btn-box">
                                 <a href="#" class="theme-btn btn-style-one"><span class="btn-title">About Us</span></a>
                                 <a href="#" class="theme-btn btn-style-two"><span class="btn-title">Our Services</span></a>

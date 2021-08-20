@@ -73,7 +73,7 @@
 
                             <div class="outer-box">
                                 <button class="search-btn"><span class="fa fa-search"></span></button>
-                                <a href="{{url('auth/login')}}" id="appointment-btn" class="theme-btn btn-style-one"><span class="btn-title">Login</span></a>
+                                <a href="{{url('auth/login')}}"  class="theme-btn btn-style-one"><span class="btn-title">Staff Login</span></a>
                             </div>
                         </div>
                     </div>
@@ -166,8 +166,8 @@
                                     <div class="footer-widget">
                                         <h2 class="widget-title">Our Link</h2>
                                         <ul class="user-links">
-                                            <li><a href="#">Login</a></li>
-                                            <li><a href="{{url('about')}}">Contact Us</a></li>
+                                            <li><a href="{{url('auth/login')}}">Staff Login</a></li>
+                                            <li><a href="{{url('contact')}}">Contact Us</a></li>
                                             <li><a href="{{url('about')}}">About Developer</a></li>
                                         </ul>
                                     </div>

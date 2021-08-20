@@ -26,7 +26,7 @@
             <div class="panel-heading">
                 <div class="view-header">
                     <div class="header-icon">
-                        <i class="pe-7s-unlock"></i>
+                        <i class="pe-7s-user"></i>
                     </div>
                     <div class="header-title">
                         <h3>Admin Login</h3>

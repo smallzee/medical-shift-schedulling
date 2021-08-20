@@ -23,6 +23,19 @@ Route::get('/about', function () {
     return view('about',array('page_title'=>'About Developers'));
 });
 
+
+Route::group(['namespace'=>'account','prefix'=>'auth'], function (){
+    Route::resource('login', "LoginController");
+});
+
+
+Route::group(['namespace'=>'user','prefix'=>'user'], function (){
+    Route::get('/dashboard', "UserController@dashboard")->name('dashboard');
+    Route::get('/password', "UserController@password")->name('password');
+    Route::post('/update_password', "UserController@update_password")->name('update_password');
+    Route::get('/logout', "UserController@logout")->name('logout');
+});
+
 // admin route
 Route::group(['namespace'=>'admin','prefix'=>'admin'], function (){
     Route::resource('/', "LoginController");

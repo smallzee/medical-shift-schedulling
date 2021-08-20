@@ -101,19 +101,19 @@
             <!-- sidebar menu -->
             <ul class="sidebar-menu">
                 <li>
-                    <a href="{{url('admin/dashboard')}}"><i class="fa fa-home"></i><span>Dashboard</span>
-                    </a>
-                </li>
-                
-
-                <li>
-                    <a href="{{url('admin/shifting')}}"><i class="fa fa-hospital-o"></i><span>Staff Shifting Scheduling </span>
+                    <a href="{{url('user/dashboard')}}"><i class="fa fa-home"></i><span>Dashboard</span>
                     </a>
                 </li>
 
 
                 <li>
-                    <a href="{{url('admin/logout')}}">
+                    <a href="{{url('user/password')}}"><i class="fa fa-lock"></i><span> Change Password </span>
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="{{url('user/logout')}}">
                         <i class="fa fa-sign-out"></i><span> Logout</span>
                     </a>
                 </li>
