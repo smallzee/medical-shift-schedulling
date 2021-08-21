@@ -46,6 +46,8 @@ Route::group(['namespace'=>'admin','prefix'=>'admin'], function (){
     Route::get('/add-shifting-category', "ShiftingController@add_shifting_category")->name('add_shifting_category');
     Route::post('/create_shifting_category', "ShiftingController@create_shifting_category")->name('create_shifting_category');
     Route::post('/update_shifting_category', "ShiftingController@update_shifting_category")->name('update_shifting_category');
+    Route::post('/create_medical_shifting', "ShiftingController@create_medical_shifting")->name('create_medical_shifting');
+
 
     Route::get('/role', "RoleController@role")->name('role');
     Route::get('/edit-role/{role}', "RoleController@edit_role")->name('edit_role');

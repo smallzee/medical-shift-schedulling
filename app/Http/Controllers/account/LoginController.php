@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\account;
 
+use App\Duty_shifting;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -66,7 +67,9 @@ class LoginController extends Controller
         ]);
 
         if ($log){
-            if (Auth::user()->role_id > 1){
+            $user_id = Auth::user()->id;
+            $duty = Duty_shifting::where('staff','>',$user_id)->count();
+            if (Auth::user()->role_id > 1 && $duty > 0){
                 return redirect()->intended('user/dashboard');
             }else{
                 return back()->with("flash_error", 'Access denied')->withInput();

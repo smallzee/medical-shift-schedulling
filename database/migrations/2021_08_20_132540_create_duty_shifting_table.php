@@ -15,7 +15,7 @@ class CreateShiftingTable extends Migration
     {
         Schema::create('duty_shifting', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('user_id');
+            $table->integer('staff');
             $table->integer('shifting_id');
             $table->text('description');
             $table->date('next_shifting_date');

@@ -37,4 +37,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    function duty(){
+        return $this->hasOne(Duty_shifting::class,'staff','id')->orderBy('id','desc');
+    }
+
+    function shifting(){
+        return $this->hasOne(ShiftingCategory::class,'id','shifting_category_id');
+    }
 }

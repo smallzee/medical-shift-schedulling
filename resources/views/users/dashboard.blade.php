@@ -29,18 +29,23 @@
 
                 <div class="table-responsive">
 
+
                     <table class="table table-bordered">
                         <tr>
                             <td>Duty Name</td>
-                            <td>Morning</td>
+                            <td>{{ ucwords($duty->shifting->name) }}</td>
                         </tr>
                         <tr>
                             <td>Duty Time</td>
-                            <td>8:00AM - 2:00PM</td>
+                            <td>{{ $duty->shifting->schedule }}</td>
                         </tr>
                         <tr>
                             <td>Working Days</td>
-                            <td>Monday - Friday</td>
+                            <td>{{ $duty->description }}</td>
+                        </tr>
+                        <tr>
+                            <td>Next Shifting Date</td>
+                            <td> {{ $duty->next_shifting_date }}</td>
                         </tr>
                     </table>
 

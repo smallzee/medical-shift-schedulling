@@ -67,6 +67,7 @@ class StaffController extends Controller
     public function view_staff(User $user){
         $data['page_title'] = "Staff Profile";
         $data['user'] = $user;
+        $data['duty'] = $user->duty;
         return view('admin.view-staff',$data);
     }
 
@@ -78,7 +79,6 @@ class StaffController extends Controller
 
     public function update_staff(Request $request){
         $validator = Validator::make($request->all(),[
-            //'email_address'=>'required|min:8|max:200',
             'full_name'=>'required|min:3|max:100',
             'phone_number'=>'required',
             'gender'=>'required',

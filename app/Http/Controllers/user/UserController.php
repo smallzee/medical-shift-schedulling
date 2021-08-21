@@ -23,12 +23,32 @@ class UserController extends Controller
     public function dashboard(){
         $data['page_title'] = "Dashboard";
 
-        $shifing_category = ShiftingCategory::get();
+        $duty_shifting = Duty_shifting::where('staff',\auth()->user()->id)->orderBy('id','desc')->first();
 
-        $duty_shifting = Duty_shifting::where('user_id',\auth()->user()->id)->orderBy('id','desc')->first();
+        $data['duty'] = $duty_shifting;
 
-        for ($i =0; $i < count($shifing_category); $i++){
-            $shifing_category_id = $shifing_category[$i]->id;
+        if ($duty_shifting->next_shifting_date >= date('m-d-Y')){
+
+            if ($duty_shifting->shifting_category_id == 1){
+                $shifting_category_id = 2;
+            }elseif ($duty_shifting->shifting_category_id == 2){
+                $shifting_category_id = 3;
+            }else{
+                $shifting_category_id = 1;
+            }
+
+            $nxt_date = strtotime("next ".date('l')) - 24;
+            $next_shifting_date = date('m-d-Y',$nxt_date);
+            $description = date('l') ." - ". date('l',$nxt_date );
+
+
+            Duty_shifting::create([
+                'staff'=>\auth()->user()->id,
+                'shifting_category_id'=>$shifting_category_id,
+                'next_shifting_date'=>$next_shifting_date,
+                'description'=>$description
+            ]);
+
         }
 
 

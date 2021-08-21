@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\admin;
 
+use App\Duty_shifting;
 use App\Http\Controllers\Controller;
 use App\ShiftingCategory;
 use Illuminate\Http\Request;
@@ -91,5 +92,40 @@ class ShiftingController extends Controller
     public function shifting(){
         $data['page_title'] = "Staffs Shifting Scheduling";
         return view('admin.shitfing',$data);
+    }
+
+    public function create_medical_shifting(Request $request){
+        $validator = Validator::make($request->all(), [
+            'shifting_category'=>'required',
+            'staff'=>'required|unique:duty_shifting',
+        ]);
+
+
+        if ($validator->fails()){
+
+            $msg = (count($validator->errors()->all()) == 1) ? 'An error occurred' : 'Some error(s) occurred';
+
+            foreach ($validator->errors()->all() as $value){
+                $msg.='<p>'.$value.'</p>';
+            }
+
+            return redirect()->back()->with('flash_error',$msg)->withInput();
+
+        }
+
+        $nxt_date = strtotime("next ".date('l')) - 24;
+        $next_shifting_date = date('m-d-Y',$nxt_date);
+        $description = date('l') ." - ". date('l',$nxt_date );
+
+
+        Duty_shifting::create([
+            'staff'=>$request->staff,
+            'shifting_category_id'=>$request->shifting_category,
+            'next_shifting_date'=>$next_shifting_date,
+            'description'=>$description
+        ]);
+
+        return back()->with('flash_info','Staff schedule has been added successfully');
+
     }
 }
