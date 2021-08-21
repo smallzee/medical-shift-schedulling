@@ -54,6 +54,8 @@ Route::group(['namespace'=>'admin','prefix'=>'admin'], function (){
     Route::post('/update_role', "RoleController@update_role")->name('update_role');
 
     Route::get('/add-staff', "StaffController@add_staff")->name('add_staff');
+    Route::get('/edit-staff/{user}', "StaffController@edit_staff")->name('edit_staff');
+     Route::post('/update_staff', "StaffController@update_staff")->name('update_staff');
     Route::get('/staff', "StaffController@staff")->name('staff');
     Route::get('/view-staff/{user}', "StaffController@view_staff")->name('view_staff');
     Route::post('/create_new_staff', "StaffController@create_new_staff")->name('create_new_staff');

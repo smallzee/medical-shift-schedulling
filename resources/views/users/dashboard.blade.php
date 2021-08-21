@@ -38,6 +38,10 @@
                             <td>Duty Time</td>
                             <td>8:00AM - 2:00PM</td>
                         </tr>
+                        <tr>
+                            <td>Working Days</td>
+                            <td>Monday - Friday</td>
+                        </tr>
                     </table>
 
                 </div>

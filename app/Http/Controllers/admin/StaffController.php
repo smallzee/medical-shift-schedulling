@@ -69,4 +69,42 @@ class StaffController extends Controller
         $data['user'] = $user;
         return view('admin.view-staff',$data);
     }
+
+    public function edit_staff(User $user){
+        $data['page_title'] = "Edit Staff";
+        $data['user'] = $user;
+        return view('admin.edit-staff',$data);
+    }
+
+    public function update_staff(Request $request){
+        $validator = Validator::make($request->all(),[
+            //'email_address'=>'required|min:8|max:200',
+            'full_name'=>'required|min:3|max:100',
+            'phone_number'=>'required',
+            'gender'=>'required',
+            'role'=>'required',
+        ]);
+
+        if ($validator->fails()){
+
+            $msg = (count($validator->errors()->all()) == 1) ? 'An error occurred' : 'Some error(s) occurred';
+
+            foreach ($validator->errors()->all() as $value){
+                $msg.='<p>'.$value.'</p>';
+            }
+
+            return redirect()->back()->with('flash_error',$msg)->withInput();
+
+        }
+
+        $user = User::find($request->id);
+        $user->full_name = $request->full_name;
+        $user->phone_number = $request->phone_number;
+        $user->gender = $request->gender;
+        $user->role_id = $request->role;
+
+        $user->save();
+
+        return back()->with('flash_info','Staff has been updated successful');
+    }
 }

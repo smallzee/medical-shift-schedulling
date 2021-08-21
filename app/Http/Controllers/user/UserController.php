@@ -28,7 +28,7 @@ class UserController extends Controller
         $duty_shifting = Duty_shifting::where('user_id',\auth()->user()->id)->orderBy('id','desc')->first();
 
         for ($i =0; $i < count($shifing_category); $i++){
-            $shifing_category_id[] =$shifing_category[$i]->id;
+            $shifing_category_id = $shifing_category[$i]->id;
         }
 
 

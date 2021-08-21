@@ -11,7 +11,6 @@
             </div>
             <div class="panel-body">
 
-
                 <form action="{{url('user/update_password')}}" method="post">
                     @csrf
                     <div class="form-group">

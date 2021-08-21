@@ -48,7 +48,12 @@
                                 <td>{{$value->gender}}</td>
                                 <td>{{ \App\Role::where('id',$value->role_id)->first()->name  }}</td>
                                 <td>{{$value->created_at}}</td>
-                                <td><a href="{{url('admin/view-staff/'.$value->id)}}" class="btn btn-primary btn-sm">View</a></td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a href="{{url('admin/edit-staff/'.$value->id)}}" class="btn btn-primary btn-sm">Edit</a>
+                                        <a href="{{url('admin/view-staff/'.$value->id)}}" class="btn btn-primary btn-sm">View</a>
+                                    </div>
+                                </td>
                             </tr>
                         @endforeach
                         </tbody>

@@ -89,7 +89,7 @@ class ShiftingController extends Controller
     }
 
     public function shifting(){
-        $data['page_title'] = "All Staffs Shifting Scheduling";
+        $data['page_title'] = "Staffs Shifting Scheduling";
         return view('admin.shitfing',$data);
     }
 }
