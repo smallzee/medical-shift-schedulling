@@ -57,7 +57,7 @@
                     <!-- Main box -->
                     <div class="main-box">
                         <div class="logo-box">
-                            <div class="logo"><a href="{{url('/')}}"><img src="{{url('assets/images/logo.png')}}" alt="" title=""></a></div>
+                            <div class="logo"><a href="{{url('/')}}"><img src="{{url('assets/images/logo.png')}}" alt="" style="widows: 50px; height: 50px;" title=""></a></div>
                         </div>
 
                         <!--Nav Box-->
@@ -121,7 +121,7 @@
                 <button class="close-search"><span class="fa fa-times"></span></button>
 
                 <div class="search-inner">
-                    <form method="post" action="blog-showcase.html">
+                    <form method="post" action="#">
                         <div class="form-group">
                             <input type="search" name="search-field" value="" placeholder="Search..." required="">
                             <button type="submit"><i class="flaticon-magnifying-glass"></i></button>
@@ -149,7 +149,7 @@
                                 <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
                                     <div class="footer-widget about-widget">
                                         <div class="logo">
-                                            <a href="{{url('/')}}"><img src="{{url('assets/images/logo-2.png')}}" alt="" /></a>
+                                            <a href="{{url('/')}}"><img src="{{url('assets/images/logo.png')}}" style="width: 50px; height: 50px;" alt="" /></a>
                                         </div>
                                         <ul class="social-icon-three">
                                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>

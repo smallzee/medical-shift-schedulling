@@ -69,7 +69,7 @@ class LoginController extends Controller
         if ($log){
             $user_id = Auth::user()->id;
             $duty = Duty_shifting::where('staff','>',$user_id)->count();
-            if (Auth::user()->role_id > 1 && $duty > 0){
+            if (Auth::user()->role_id = 1 && $duty > 0){
                 return redirect()->intended('user/dashboard');
             }else{
                 return back()->with("flash_error", 'Access denied')->withInput();

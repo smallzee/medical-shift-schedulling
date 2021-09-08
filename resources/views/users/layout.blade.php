@@ -52,11 +52,11 @@
         <a href="{{url('admin/dashboard')}}" class="logo"> <!-- Logo -->
             <span class="logo-mini">
                         <!--<b>A</b>H-admin-->
-                        <img src="{{url('assets/admin/dist/img/mini-logo.png')}}" alt="">
+                        <img src="{{url('assets/images/logo.png')}}" alt="">
                     </span>
             <span class="logo-lg">
                         <!--<b>Admin</b>H-admin-->
-                        <img src="{{url('assets/admin/dist/img/logo.png')}}" alt="">
+                        <img src="{{url('assets/images/logo.png')}}" alt="">
                     </span>
         </a>
         <!-- Header Navbar -->

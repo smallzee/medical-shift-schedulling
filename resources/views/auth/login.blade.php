@@ -3,7 +3,7 @@
 @push('content')
 
     <!--Page Title-->
-    <section class="page-title" style="background-image: url({{url('assets/images/background/8.jpg')}});">
+    <section class="page-title" style="background-image: url({{url('assets/images/doctor-2.jpg')}});">
         <div class="auto-container">
             <div class="title-outer">
                 <h1>{{ $page_title }}</h1>
